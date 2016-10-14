@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="HTML Advanced, Forms">
+  <title>Forms</title>
+</head>
+
+<body>
+   <form action="http://httpbin.org/get" method="get">
+  <h1> The form </h1>
+ <fieldset> 
+     <legend>Personal data:</legend> 
+    <table> 
+ <tr> 
+      <td> <label for="1"> First name </label></td>
+<td>  <input id="1" type="text" name="First name"> </td>
+ </tr>
+ 
+ 
+                        
+  <tr> 
+      <td> <label for="2"> Middle name </label></td>
+         <td><input id="2" type="text" name="Middle name"> </td> 
+          </tr> 
+            
+              
+              <tr> <td rowspan="2"> <label for="3"> Sex </label> </td> 
+               <td> <input id="3" type="radio" name="Sex" value="Male" checked> Male </td>  </tr>
+                 
+        <tr>
+               <td>  <input type="radio" name="Sex" value="Female"> Female  </td> </tr> 
+<tr> <td> <label for="4">Age </label> </td>
+ <td>  <input  id="4" type="text" name="Age"> </td>
+ </tr>
+                        
+  <tr> 
+      <td> <label for="5"> Country </label></td>
+         <td> <input id="5" type="text" name="Country"> </td> 
+          </tr>
+        <tr> <td>  <label for="6"> City </label> </td>  
+<td> <input id="6" type="checkbox" name="city" value="A1" checked> Ryazan  
+ <input type="checkbox" name="city" value="A2"> Moscow </td>
+</tr> 
+
+ 
+ <tr>       
+<td> <label for="7">Photography </label></td>
+<td> <input id="7" type="submit" Value="Выбрать фотографию"> Файл не выбран  </td> </tr>
+ </table> 
+ <hr> 
+<table> 
+<tr> <td> <label> Title</label> </td> 
+<td>  <select> 
+  <optgroup label="Technologies">
+    <option value="Web Master">Web Master</option>
+    <option value="Database Administrator">Database Administrator</option>
+    <option value="Computer-aided design">Computer-aided designr</option>
+  </optgroup>
+  <optgroup label="Finance">
+    <option value="Economic Planning">Economic Planning</option>
+    <option value="Managment">Managment</option> 
+    <option value="Budgetting and planning">Budgetting and planning</option>
+  </optgroup>
+</select>  </td> </tr>
+
+<tr> <td> <label for="8"> Salary </label> </td>  
+<td> <input id="8" type="range" name="Salary" min="0" max="10">
+   </td> </tr>
+  <tr> 
+  <td colspan="2"> <textarea name="message" rows="10" cols="50"> 
+  Tell us about yourself
+  </textarea>   </td></tr>
+</table></fieldset>
+             
+ 
+   <fieldset>
+      <legend>Contact information:</legend>
+     <table> <tr> <td> <label for="9"> Site </label> </td>
+      <td> <input id="9" type="text" name="Site"> </td>  </tr>                     
+ <tr> <td> <label for="10"> E-mail </label> </td>
+           <td>   <input id="10" type="text" name="E-mail">  </td> </tr>    
+           <tr> <td>   <label for="11"> Phone  </label> </td> 
+      <td><input id="11" type="text" name="Pnone">  </td></tr></table> 
+      <input type="submit">   
+              
+             </fieldset>
+             <table>
+                 <tr> <td> <label for="12"> Password </label> </td> 
+                 <td> <input id="12" type="text" name="password" required>  </td>
+                 </tr>      </table>  
+                 <hr> 
+                 <input type="submit" value="Отправить">
+             <input type="reset" value="Сбросить"> 
+             </form>
+                               
+ </body>
+</html>
+             
+         

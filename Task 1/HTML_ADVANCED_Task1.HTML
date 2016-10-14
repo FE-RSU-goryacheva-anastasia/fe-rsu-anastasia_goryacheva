@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="HTML Advanced, Forms">
+  <title>Forms </title>
+</head>
+<body>
+
+    <ul>
+       <li><a href="#">Searching </a> </li>
+      <li><a href="#"> YouTibe </a>  </li>
+       <li><a href="#"> Card </a>  </li>
+    <li><a href="#"> Play </a>  </li>
+    <li><a href="#"> News </a> </li>
+      <li><a href="#"> Mail </a>  </li>
+      </ul>
+      <ol start="7">
+          
+          <li> Searching </li>
+          <li> Card </li>
+          <li> Market </li>
+          <li> News </li>
+          <li> Dictionaries </li>
+		  <li> Pictures </li>
+		  <li>  Yet</li>
+          <ul>
+          <li>Flights</li>
+          <li> Auto</li>
+          <li>Posters</li>
+          <li>Blogs</li>
+          </ul>
+      </ol>
+    <dl> 
+	 <dt><i> Tag </i> </dt>
+ <dd>Elements of hypertext language  </dd>
+      	 <dt><i> The Semantic Web </i>	 </dt>
+	    <dd>This direction of development of the World Wide Web, the aim of which is to provide information in a from suitable for machine processing  </dd></dl>
+      
+      <hr>
+      <P align="center"> CSS Generated content for pseudo-elements </P>
+      <table border="1" width="100%">
+        
+          <tr>
+              <th> IE </th>
+              <th> Firefox </th>
+              <th> Chrome </th>
+              <th> Safari </th>
+              <th> Opera </th>
+              <th> iOs Safari </th>
+              <th> Opera Mini </th>
+              <th> Android browser </th>
+              <th> Chrome for Android </th>
+              </tr>
+             
+              <tr> 
+<td rowspan="2"></td> 
+<td rowspan="4"></td> 
+<td>27</td> 
+<td rowspan="3"></td> 
+<td rowspan="5"></td> 
+<td rowspan="4"></td> 
+<td rowspan="5"></td> 
+<td rowspan="1"></td> 
+<td rowspan="5"></td> 
+</tr>
+            
+                   <tr>
+              <td> 31 </td>
+              <td> 2.3  </td>
+              </tr>
+             
+                   <tr>
+              <td> 8 </td>
+              
+              <td> 33 </td>
+        
+              <td> 4 </td>
+             
+              </tr>
+            
+                   <tr>
+              <td> 9 </td>
+
+              <td> 34 </td>
+              <td> 5.1 </td>
+             
+              <td>  4.1 </td>
+             
+              </tr>
+             
+                   <tr>
+              <td> 10 </td>
+              <td> 30 </td>
+              <td> 35 </td>
+              <td> 6.1 </td>
+             
+              <td> 6.1 </td>
+              
+              <td>  4.3 </td>
+            
+              </tr>
+             
+                   <tr>
+              <td> 11 </td>
+              <td> 31 </td>
+              <td> 36 </td>
+              <td> 7 </td>
+              <td> 23 </td>
+              <td>  7.1 </td>
+              <td>  7 </td>
+              <td>  4.4 </td>
+              <td>  36  </td>
+              </tr>
+             
+                   <tr>
+                       
+              <td colspan="9"> Method of displeying text of images before or after the given element's contents using the: before and: after pseudo-elements</td>
+              </tr>
+            
+              </table>
+                <form action="http://httpbin.org/get" method="get">
+    <fieldset>
+      <legend>Personal data:</legend>
+	  <label for="one"> Surename </label> 
+	  <input id="one" type="text">
+      
+	  <br><br>
+      
+     <label for="two"> First name </label>  
+      <input id="two" type="text">
+      <br><br>
+      
+      <label for="th"> Middle name 
+      <input id="th" type="text"></label> 
+      <br><br>
+	  
+      <label >  You are </label> 
+      <input  type="radio" name="sex" value="male" checked> Male 
+      <input  type="radio" name="sex" value="Female"> Female 
+      <br><br>
+	  
+	  <label for="5"> Age </label>  
+     
+       <input id="5" type="number" name= "age" min="18" max="101"> 
+       <br> <br>
+	   
+       <label for="6">Country of Residence </label> 
+	   <input id="6" list="countries"> 
+		<datalist id="countries"> 
+			<option value="RF"> RF </option> 
+			<option value="GB"> GB </option>
+			<option value="INDIA"> INDIA </option>
+			<option value="USA"> USA </option>
+		</datalist>
+   
+ <br> <br> <br>
+
+<label> City </label>
+<input  type="checkbox" name="city" value="A1" checked> Ryazan 
+<input  type="checkbox" name="city" value="A2"> Moscow 
+ <br> <br>
+
+<label for="8"> Photography </label>
+<input id="8" type="submit" Value="Выбрать фотографию"> Файл не выбран 
+<hr>
+
+<label> Title </label>
+<select>
+ <optgroup label="Technologies">
+    <option value="Web Master">Web Master</option>
+    <option value="Database Administrator">Database Administrator</option>
+    <option value="Computer-aided design">Computer-aided designr</option>
+  </optgroup>
+  <optgroup label="Finance">
+    <option value="Economic Planning">Economic Planning</option>
+    <option value="Managment">Managment</option> 
+    <option value="Budgetting and planning">Budgetting and planning</option>
+  </optgroup>
+</select> 
+
+<br> <br> 
+<label for="9"> Salary  </label>
+<input id="9" type="range" name="Salary" min="0" max="10">
+ 
+  <br> <br>
+  
+<textarea name="message" rows="10" cols="50">
+  Tell us about yourself
+ </textarea>
+  </fieldset>
+    <fieldset>
+      <legend>Contact information:</legend>
+      <label for="10"> Site</label> 
+          <input id="10" type="text" name="site"> 
+          <br> <br>
+          <label for="11"> A-mail </label> 
+              <input id="11" type="text" name="e-mail-mail"> 
+             <br> <br> 
+              <label for="12"> Phone   </label> 
+              <input id="12" type="text" name="phone">            
+              </fieldset>
+			  <br>
+              
+              <label for="13"> Password </label>
+              <input id="13" type="text" name="Password" required> 
+              <br>     <br>
+              
+             <input type="submit" value="Отправить">
+            <input type="submit" value="Сбросить"> 
+      </form>
+            
+              </body>
+              </html>
+             
+         

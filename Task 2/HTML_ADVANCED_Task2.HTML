@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="HTML Advanced, Forms">
+  <title>Forms</title>
+</head>
+
+
+
+<body>
+   <form action="http://httpbin.org/get" method="get">
+  <h1> Regestration form </h1>
+ <fieldset> 
+     <legend>Personal data:</legend> 
+    <table> 
+ <tr> 
+      <td> <label for="1"> First name </label></td>
+      <td>  <input id="1" type="text" name="First name"> </td>
+ </tr>
+ 
+                        
+  <tr> 
+      <td> <label for="2"> Surname </label></td>
+         <td><input id="2" type="text" name="surname"> </td> 
+          </tr> 
+            
+              
+              <tr> <td rowspan="2"><label>  Sex </label> </td> 
+               <td>  <input type="radio" name="Sex" value="Male" checked> Male </td>  </tr>
+                 
+        <tr>
+               <td> <input type="radio" name="Sex" value="Female"> Female</td> </tr> </table>
+             </fieldset> 
+ 
+   <fieldset>
+      <legend>Contact information:</legend>
+     <table> <tr> <td> <label for="4"> Site </label> </td>
+      <td> <input id="4" type="text" name="Site">  </td>  </tr>                     
+ <tr> <td> <label for="5"> E-mail </label> </td>
+           <td>   <input id="5" type="text" name="E-mail"></td> </tr>    
+           <tr> <td>   <label for="6"> Phone  </label> </td> 
+      <td>  <input id="6" type="text" name="Pnone"> </td></tr></table> 
+       <input type="submit"> 
+	
+              
+             </fieldset>
+         
+             </form>                                     
+              </body>
+              </html>
+             
+         
