@@ -1,0 +1,8 @@
+table {color: #758697;}
+#c {padding:5px;font-variant:small-caps;background-color:#e8edf4;}
+td {border: 1px solid white; width: 125px; height: 30px; padding: 7px;}
+.b {background-color:#e8edf4;}
+.a {background-color:#f2f6fa;}
+.a:hover{background: #e2e5e9;}
+.b:hover{background: #e2e5e9;}
+.d {text-transform: capitalize;}
