@@ -1,0 +1,26 @@
+	
+.menu, .button{ 
+width:100px; 
+height:25px; 
+background:#87CEEB; 
+text-align:center; 
+color:white; 
+} 
+.items{display:none;} 
+.menu:hover{background:#1E90FF;} 
+.button { 
+top:0px; 
+border-radius: 0 0 20px 20px; 
+border-top: solid grey 1px; 
+
+} 
+.all:active .items { 
+display:block; 
+} 
+
+.button:hover{ 
+box-shadow:1px 1px 2px 2px #ADD8E6 
+} 
+.items:hover{ 
+display:block; 
+}

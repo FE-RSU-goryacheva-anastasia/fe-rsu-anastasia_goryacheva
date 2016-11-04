@@ -1,0 +1,141 @@
+.qq{
+    width:1200px;
+    height:50px;
+}
+.zz{width:30px;
+height: 20px;
+    
+}
+
+.q {
+position:relative;
+  height:10px;
+  width:10px;
+}
+.w{
+    position:absolute;
+    top:0px;
+    width:60px;   
+    height:20px;
+  background:#4682B4;
+  padding:15px;
+  
+ 
+}
+
+.s{  
+    position:absolute;
+    text-align: center;
+     top:16px;
+  right:23px;
+  color: white;
+  width: 20px;
+	height: 20px;
+	background: red;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+ }
+  .e{
+    position:absolute;
+    top:0px;
+    width:90px;   
+    height:20px;
+  background:#4682B4;
+  padding:15px;
+  left:95px;
+   }
+  .d{  
+    position:absolute;
+    text-align: center;
+     top:10px;
+  right:13px;
+  color: white;
+ width:50px;
+	height: 25px;
+	background: red;
+	-moz-border-radius: 60px / 30px;
+	-webkit-border-radius: 50px / 30px;
+	border-radius: 60px / 30px;
+    padding:5px;
+     }
+.r {
+      position:absolute;
+    top:0px;
+    width:60px;   
+    height:20px;
+  background:#4682B4;
+  padding:15px;
+  left: 124px;
+}    
+.f {
+    position:absolute;
+    text-align: center;
+     top:16px;
+  right:23px;
+  color: white;
+  width: 20px;
+	height: 20px;
+	background: red;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+    }
+.t {
+     position:absolute;
+    top:0px;
+    width:30px;   
+    height:20px;
+  background:#4682B4;
+  padding:15px;
+  left: 95px;
+}
+.t:hover{
+    background:red;
+}
+.y { position:absolute;
+    top:0px;
+    width:30px;   
+    height:20px;
+  background:#4682B4;
+  padding:15px;
+  left: 162px;}
+  
+  .u {
+     position:absolute;
+    top:0px;
+    width:30px;   
+    height:20px;
+  background:#4682B4;
+ left: 540px;
+  padding: 15px;
+}
+.i {
+     position:absolute;
+    top:0px;
+    width:30px;   
+    height:20px;
+  background:#4682B4;
+left: 67px;
+    padding: 15px;
+}
+.g { position:absolute;
+    top:0px;
+    width:100px;   
+    height:20px;
+  background:#4F4F4F;
+ left:1055px;
+  padding: 15px;}
+  .h {
+      align:center;
+      color:white;
+      font-size: 20px;
+   }
+.j {
+    float:right;
+    
+}
+
+
+
+    
