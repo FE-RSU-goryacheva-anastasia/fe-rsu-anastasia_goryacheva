@@ -1,0 +1,6 @@
+a {color:blue;	
+transition-duration: 1s; 
+transition-timing-function: ease-in-out; }
+.qwe:after{content:"|";color:red;}
+.qwe:hover:after{content:"";}
+.qwe:hover{border-bottom:3px solid; }

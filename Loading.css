@@ -1,0 +1,89 @@
+#loading {
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+}
+
+#loading2{
+	border: 3px solid blue;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	left: -50%;
+	top: 50%;
+	padding: 2px 1px;
+}
+
+#loading3{
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+#loading4{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #61FEFE;
+	animation: cssload-slide 4s steps(40) infinite;
+		-o-animation: cssload-slide 4 steps(40) infinite;
+		-ms-animation: cssload-slide 4 steps(40) infinite;
+		-webkit-animation: cssload-slide 4 steps(40) infinite;
+		-moz-animation: cssload-slide 4 steps(40) infinite;
+}
+
+
+
+@keyframes cssload-slide {
+	0% {
+		left: -100%;
+	}
+	
+	100% {
+		left: 100%;
+	}
+}
+
+@-o-keyframes cssload-slide {
+	0% {
+		left: -100%;
+	}
+	
+	100% {
+		left: 100%;
+	}
+}
+
+@-ms-keyframes cssload-slide {
+	0% {
+		left: -100%;
+	}
+	
+	100% {
+		left: 100%;
+	}
+}
+
+@-webkit-keyframes cssload-slide {
+	0% {
+		left: -100%;
+	}
+	
+	100% {
+		left: 100%;
+	}
+}
+
+@-moz-keyframes cssload-slide {
+	0% {
+		left: -100%;
+	}
+	
+	100% {
+		left: 100%;
+	}
+}

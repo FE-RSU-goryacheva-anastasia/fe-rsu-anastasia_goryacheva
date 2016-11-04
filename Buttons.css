@@ -1,0 +1,12 @@
+button {height:100px; width:100px; background-color:#1E90FF; color:white; border: solid white 5px;text-align:center;font-size:20px;transition-duration: 0.5s;}
+#a:hover{background-color:white; color: #1E90FF;}
+#b:hover{background-color:white; border: 0px;}
+#c:hover{transform: scale(2,2);background-color:white;opacity:0;}
+#d:hover{border-width:17px;}
+#e:hover{transform: rotate(90deg);}
+#f:hover{transform: scaleY(0)}
+#g:hover{transform:scale(0,0);}
+#h:hover{transform:scale(1.5,0)}
+#i:hover{transform:skew(45deg,45deg)}
+h1:hover:before{font-style:italic; content:"some";font-size:25px;}
+h1:hover:after{font-style:italic;content:"by Anastasia";font-size:25px;} 

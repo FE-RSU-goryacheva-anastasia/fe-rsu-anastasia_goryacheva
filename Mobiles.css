@@ -1,0 +1,5 @@
+@media screen and (min-width:500px;){
+.comp { background-color:#cad8d0; margin:20px; padding:15px;font-size:0.7em;}
+
+@media screen and (max-width:500px) {
+ .mob { background-color:#cad8d0; margin:20px; padding:15px;font-size:1.2em;width:340px;} }
