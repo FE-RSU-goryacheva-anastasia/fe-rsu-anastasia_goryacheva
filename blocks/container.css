@@ -1,0 +1,24 @@
+﻿@font-face 
+{
+    font-family: "ProximaNova";
+    src: url("../fonts/Proxima Nova Regular.otf");
+}
+
+.container
+{
+	display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: auto;
+    justify-content: space-between;
+    font-family: ProximaNova;
+}
+
+@media screen and (max-width: 600px) 
+{
+    container
+    {
+        min-height: 100%;
+        height:auto;
+    }
+}

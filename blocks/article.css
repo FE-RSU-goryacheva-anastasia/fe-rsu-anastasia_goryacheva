@@ -1,0 +1,14 @@
+﻿.article
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: scroll;
+}
+.books
+{
+    background: #eef1f8;
+    font-size: 2em;
+    color: #1f2638;
+    padding: 0.5em;
+}

@@ -1,0 +1,40 @@
+﻿.topcorner
+{   
+    display: flex;
+    transition: 0.5s; 
+    padding-right: 3; 	
+	align-items: center;
+	justify-content: space-around;	
+	padding: 10px;  
+	background: rgb(19, 165, 250);
+}
+
+.topcorner__name
+{
+	display: inline-block;
+	color:white; 
+    padding-left: 15px;
+}
+
+.topcorner__photo
+{
+	display: inline-block;
+	color: white; 
+	background: rgb(19, 165, 250);
+    color: rgb(76, 84, 105);
+    padding-right: 15px;	
+}
+
+.topcorner__pict
+{
+    display: inline-block;
+    margin: auto 0.3em;
+	color:white;
+}
+.topcorner__inf
+{
+	background: #2f3649;
+	display: inline-block;
+	color: rgb(76, 84, 105);
+    padding-right: 15px;
+}

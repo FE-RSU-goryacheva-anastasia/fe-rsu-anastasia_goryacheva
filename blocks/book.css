@@ -1,0 +1,38 @@
+﻿.book-list
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.book
+{
+    padding: 1em;
+    background: transparent;
+    transition:0.5s;
+}
+.book:hover
+{
+    background: rgba(21, 164, 250, 0.46);
+}
+.book__author
+{
+    color: #788097;
+}
+.book__name
+{
+    font-size: 1.3em;
+}
+
+.book__rating
+{
+    margin-top: 0.5em;
+    color: #ffab00;
+}
+
+.book__pic
+{
+    border-radius: 0.5em;
+    width: 15em;
+    height: 20em;
+}

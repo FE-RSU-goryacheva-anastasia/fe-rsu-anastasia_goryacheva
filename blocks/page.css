@@ -1,0 +1,13 @@
+﻿.page
+{
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) 
+{
+    .page
+    {
+        min-height: 100%;
+        height:auto;
+    }
+}

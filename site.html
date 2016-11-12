@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+    <meta name="description" content="Layout, Basic, Flex">
+    <meta charset="utf-8">
+	    <link rel="stylesheet" type="text/css" href="blocks/add-a-book.css">
+		<link rel="stylesheet" type="text/css" href="blocks/article.css">
+        <link rel="stylesheet" type="text/css" href="blocks/book.css">
+		<link rel="stylesheet" type="text/css" href="blocks/container.css">
+        <link rel="stylesheet" type="text/css" href="blocks/footer.css">
+        <link rel="stylesheet" type="text/css" href="blocks/header.css">
+        <link rel="stylesheet" type="text/css" href="blocks/horizontal.css">
+        <link rel="stylesheet" type="text/css" href="blocks/index.css">
+		<link rel="stylesheet" type="text/css" href="blocks/left-side.css">
+        <link rel="stylesheet" type="text/css" href="blocks/left-side-item.css">
+		<link rel="stylesheet" type="text/css" href="blocks/main.css">
+		<link rel="stylesheet" type="text/css" href="blocks/page.css">
+        <link rel="stylesheet" type="text/css" href="blocks/scrollbar.css">
+        <link rel="stylesheet" type="text/css" href="blocks/search.css">
+        <link rel="stylesheet" type="text/css" href="blocks/topcorner.css">
+        <script src="https://use.fontawesome.com/99fe4fd917.js"></script>
+		<title>Site</title>
+    </head>
+
+    <body class="container">
+        <header class="header">
+			<div class="topcorner">
+				<img class="topcorner__photo" src="images/face.jpg">
+				<div class="topcorner__name">Jonh Doe</div>
+				<div class="topcorner__pict fa fa-arrow-circle-down fa-lg"></div>
+			</div>
+			<div class="topcorner__inf">Our Support</div>
+		<div class="topcorner__inf"> Help Center </div>  
+        </header>
+        <main class="main">
+            <aside class="left-side">
+                <div class="add-a-book">
+                    <button class="left-side-item add-a-book__button">
+					<div>
+                        <div class="left-side-item__pict fa fa-plus"></div>
+                        <div class="left-side-item__text">ADD A BOOK</div>
+					</div>
+                    </button>
+                </div>
+
+                <div class="border">
+                    <div class="left-side-item">
+                        <div class="left-side-item__pict fa fa-book"></div>
+                        <div class="left-side-item__text">Now Reading</div>
+                    </div>
+
+                    <div class="left-side-item">
+                        <div class="left-side-item__pict fa fa-globe"></div>
+                        <div class="left-side-item__text">Browse</div>
+                    </div>
+
+                    <div class="left-side-item">
+                        <div class="left-side-item__pict fa fa-shopping-cart"></div>
+                        <div class="left-side-item__text">Buy Books</div>
+                    </div>
+
+                    <div class="left-side-item">
+                        <div class="left-side-item__pict fa fa-star"></div>
+                        <div class="left-side-item__text">Favourite Books</div>
+                    </div>
+
+                    <div class="left-side-item">
+                        <div class="left-side-item__pict fa fa-list"></div>
+                        <div class="left-side-item__text">Wishlist</div>
+                    </div>
+
+                    <div class="left-side-item">
+                        <div class="left-side-item__pict fa fa-history"></div>
+                        <div class="left-side-item__text">History</div>
+                    </div>
+                    
+                </div>
+
+                <div class="border">
+                    <div class="left-side-item">
+                        <div class="left-side-item__pict fa fa-circle left-side-item__pict_size_small left-side-item__pict_color_red"></div>
+                        <div class="left-side-item__text">Must Read Titles</div>
+                    </div>
+
+                    <div class="left-side-item">
+                        <div class="left-side-item__pict left-side-item__pict_size_small fa fa-circle left-side-item__pict_color_yellow"></div>
+                        <div class="left-side-item__text">Best Of List</div>
+                    </div>
+
+                    <div class="left-side-item">
+                        <div class="left-side-item__pict left-side-item__pict_size_small fa fa-circle left-side-item__pict_color_cyan"></div>
+                        <div class="left-side-item__text">Classic Novels</div>
+                    </div>
+
+                    <div class="left-side-item">
+                        <div class="left-side-item__pict left-side-item__pict_size_small fa fa-circle left-side-item__pict_color_violet"></div>
+                        <div class="left-side-item__text">Non Fiction</div>
+                    </div>
+
+                </div>
+
+                <div class="border">
+                    <div class="left-side-item">
+                        <div class="left-side-item__pict2 fa fa-clock-o"></div>
+                       <div>
+							<span class="left-side-item__text1">You added</span>
+                            <span class="left-side-item__text">Fight Club</span>
+							<span class="left-side-item__text1">by</span>
+                            <div>
+							<span class="left-side-item__text">Chuck Palahniuk</span>
+							<span class="left-side-item__text1">to your</span>
+							</div>
+							<div class="left-side-item__text">Must Read Titles</div>
+                            <div class="left-side-item__text2">24 minutes</div>
+                        </div>
+                 </div>
+
+					<div class="left-side-item">
+                        <div class="left-side-item__pict2 fa fa-clock-o"></div>
+                        <div>
+							<span class="left-side-item__text1">You added</span>
+                            <span class="left-side-item__text">The trial</span>
+							<span class="left-side-item__text1">by</span>
+							<div>
+                            <span class="left-side-item__text">Franz Kafka</span>
+							<span class="left-side-item__text1"> to your </span>
+							</div>
+							<div class="left-side-item__text">Must Read Titles</div>
+                            <div class="left-side-item__text2">48 minutes</div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <section class="article">
+                <div class="books">Browse Avaliable Books</div>
+				<hr class="hr">
+                <div class="horizontal">
+                    <div>
+                        <div class="horizontal-menu">All Books</div>
+                        <div class="horizontal-menu">Most Recent</div>
+                        <div class="horizontal-menu">Most Popular</div>
+                        <div class="horizontal-menu">Free Books</div>
+                    </div>
+                    
+					<div class="search">
+                        <input type="text" class="search1" placeholder="Enter Keywords">
+                        <span class="search-pict fa fa-search"></span>
+                    </div>
+				</div>	
+				<hr class="hr">	
+				<div class="book-list">
+                    <div class="book">
+						<img class="book__pic" src="images/1.jpg">
+                            <div class="book__name">Jewels of Nizam</div>
+                            <div class="book__author"> by Geeta Devi</div>
+                            <div class="book__rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                    </div>
+
+                    <div class="book">
+                          <img class="book__pic" src="images/2.jpg">
+                            <div class="book__name">Cakes &amp; Bakes</div>
+                            <div class="book__author">by Sanjeev Kapoor</div>
+                            <div class="book__rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+
+                        </div>
+
+                        <div class="book">
+                            <img class="book__pic" src="images/3.jpg">
+                            <div class="book__name">Jamie's kitchen</div>
+                            <div class="book__author">by Jamie Oliver</div>
+                            <div class="book__rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-half-o"></span>
+                            </div>
+
+                        </div>
+
+                        <div class="book">
+                            <img class="book__pic" src="images/4.jpg">
+                            <div class="book__name">Inexpensive Family Meals</div>
+                            <div class="book__author">by Simon Holst</div>
+                            <div class="book__rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-o"></span>
+                            </div>
+                        </div>
+
+                        <div class="book">
+                            <img class="book__pic" src="images/5.jpg">
+                            <div class="book__name">Paleo Slow Cooking</div>
+                            <div class="book__author">by Chrissy Goer</div>
+                            <div class="book__rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-half-o"></span>
+                            </div>
+                        </div>
+
+                        <div class="book">
+                            <img class="book__pic" src="images/6.jpg">
+                            <div class="book__name">Cook Like an Italian</div>
+                            <div class="book__author">by Toby Puttock</div>
+                            <div class="book__rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-o"></span>
+                            </div>
+                        </div>
+
+                        <div class="book">
+                            <img class="book__pic" src="images/7.jpg">
+                            <div class="book__name">Suneeta Vasvani</div>
+                            <div class="book__author">by Geeta Devi</div>
+                            <div class="book__rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+
+                        <div class="book">
+                            <img class="book__pic" src="images/8.jpg">
+                            <div class="book__name">Jamie Does</div>
+                            <div class="book__author">byJamie Oliver</div>
+                            <div class="book__rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-o"></span>
+                            </div>
+                        </div>
+
+                        <div class="book">
+                            <img class="book__pic" src="images/9.jpg">
+                            <div class="book__name">Jamie's Italy</div>
+                            <div class="book__author">by Jamie Oliver</div>
+                            <div class="book__rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+
+                        <div class="book">
+                            <img class="book__pic" src="images/10.jpg">
+                            <div class="book__name">Vegetables Cookbook</div>
+                            <div class="book__author">by Matthew Biggs</div>
+                            <div class="book__rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-half-o"></span>
+                                <span class="fa fa-star-o"></span>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </main>
+        <footer class="footer">
+			<div class="vopros">
+				<a class="topcorner__pict fa fa-cog fa-lg"></a>
+            </div>
+            <div class="mech">
+                <a class="footer__pict fa fa-question-circle fa-lg"></a>
+            </div>
+        </footer>
+    </body>
+</html>

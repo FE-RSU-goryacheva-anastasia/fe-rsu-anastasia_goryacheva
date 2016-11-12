@@ -1,0 +1,12 @@
+﻿.header
+{
+    background: rgb(47, 54, 73);
+	display: flex;
+	flex-basis: 6%;
+    flex-shrink: 0;
+	flex-direction: row-reverse;
+    align-items: center; 
+	height: 5em;
+	border-radius: 5px 5px 0 0;
+	color: #788097
+}

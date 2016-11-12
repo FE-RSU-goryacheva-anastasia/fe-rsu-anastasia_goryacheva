@@ -1,0 +1,39 @@
+﻿.horizontal
+{
+    background: #eef1f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #788097;
+    min-height: 3em;
+    flex-shrink: 0;
+    padding: 0 1em;
+}
+
+hr{
+    color: #FAFAFA;
+	width: 100%;
+}
+
+.horizontal-menu
+{
+    display: inline-block;
+    border-radius: 1em;
+    padding: 0.2em 0.7em;
+    transition: 0.2s;
+}
+
+.horizontal-menu:hover
+{
+    background: #98b3ce;
+    color: white;
+}
+
+@media screen and (max-width: 1200px)
+{
+.horizontal-menu
+{
+    width: 100px;
+}
+}

@@ -1,0 +1,15 @@
+﻿.main
+{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    flex: 1;
+}
+
+@media screen and (max-width: 600px) 
+{
+    .main
+    {
+        flex-direction: column;
+    }
+}
